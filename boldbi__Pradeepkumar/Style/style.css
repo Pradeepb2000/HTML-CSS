@@ -1,0 +1,136 @@
+body{
+    overflow-x: hidden;
+    /* background-color: rgb(223, 229, 231); */
+}
+.container
+{
+    background-image: url("../Images/Vector-1.png" );
+    background-color: white;
+
+}
+
+#boldicon
+{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#t1
+{
+    float: left;
+    margin: 5px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+#t2
+{   background-color: white;
+    float: right;
+    margin: 80px;
+    padding-top: 200px;
+    padding-right: 200px;
+    border: 1px solid black;
+    border-color:grey;
+    padding: 20px;
+}
+#form input
+{
+    width: 400px;
+    height: 30px;
+    border:1px solid grey;
+    padding: 5px;
+    box-shadow: grey;
+}
+#clear
+{
+    clear: both;
+}
+.office
+{
+    margin:auto;
+}
+.office h1{
+    color:#283a5e;
+    text-align: center;
+    font-size: 36px;
+    font-family: Caros-Bold,sans-serif;
+}
+.office li{
+    width:25%;
+    float: left;
+    list-style: none;
+    border: 1px solid #282828;
+    font-family: sans-serif;
+    line-height: 30px;
+    margin: 30px;
+    color:#283A5F;
+}
+.office p{
+    position: relative;
+    left:10px;
+}
+.office img{
+    width:100%;
+    height: 25%;
+    
+}
+.office table a:hover{
+    color: #818a91;
+}
+
+li #logo{
+    padding-right: 80px;
+    margin-right: 180px;
+
+}
+#menu
+{
+    z-index: 100;
+}
+#menu ul{
+    position: fixed;
+    width:100%;
+    height: 50px;
+    padding-bottom: 20px;
+
+    left: 0px;
+    top: 0px;
+    background-color: white;
+
+
+}
+#menu ul li{
+    line-height: 80px;
+    font-size: 1.2rem;
+    margin-left: 4px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    padding-top: -40px;
+    background-color: white;
+    
+
+}
+/* #Follow
+{
+    display: inline;
+} */
+
+#follow img{
+
+    /* margin: 0 auto;
+    text-align: center; */
+    display:inline;
+    width: 3%;
+    height: 3%;
+}
+
+#chat
+{
+    position: fixed;
+    float: right;
+    right: 20px ;
+    bottom: 20px;
+
+}
